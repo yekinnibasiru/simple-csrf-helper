@@ -15,13 +15,13 @@
 
   ### A default token secret is already set for you but you are advised  to set new secret token for security purpose
   
-  ### $csrf= new Csrf();
-  ### $tokensecret='super random secret';   
-  ### $csrf->setTokenKey($tokensecret);
+  #### $csrf= new Csrf();
+  #### $tokensecret='super random secret';   
+  #### $csrf->setTokenKey($tokensecret);
 
   ## 3 You can set the token input tag field name by calling after the class instantiation
 
-  ### A default name is already set for you which is super cool and great!!!
-  ### $csrf= new Csrf();
-  ### $fieldname='csrf_field';   
-  ### $csrf->setTokenName($fieldname);
+  ###   A default name is already set for you which is super cool and great!!!
+  #### $csrf= new Csrf();
+  #### $fieldname='csrf_field';   
+  #### $csrf->setTokenName($fieldname);
