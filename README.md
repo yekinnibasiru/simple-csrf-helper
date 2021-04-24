@@ -11,7 +11,7 @@
   $expiry=3*3600;      //where 3600 is an hour in seconds therefore this is for  3 hours the default expiry time is 7200 which is two hours
   $csrf->setExpiry($expiry);
 ```
-  2. You can set the token expiry by calling after the class instantiation
+  2. You can set the token secret by calling after the class instantiation
 
   A default token secret is already set for you but you are advised  to set new secret token for security purpose
   ```php
