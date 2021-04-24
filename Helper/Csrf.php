@@ -54,7 +54,7 @@ class Csrf {
         }
     }
 
-    private function generateToken(){// Generate a random token unique per session_id() and time()
+    protected function generateToken(){// Generate a random token unique per session_id() and time()
         $token=hash_hmac('sha256',session_id().time(),$this->token_key);
         $token=substr($token,0,32);
         $_SESSION['csrf']=array(
